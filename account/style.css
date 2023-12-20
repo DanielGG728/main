@@ -1,0 +1,42 @@
+body {
+    background-color: #212125;
+    color: azure;
+    display: flex;
+    flex-direction: column; /* Ajusta o layout para coluna */
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título para separá-lo da div */
+}
+
+div {
+    width: 50%;
+    margin: 0 auto 50px; /* Centraliza horizontalmente a div e adiciona margem abaixo */
+    color: #212125;
+    display: block;
+    background-color: #f7f7ff;
+    padding: 25px;
+    border-radius: 10px;
+}
+a {
+    color: #525252;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+a:hover {
+    color: #b8b8b8;
+    font-size: 18px;
+}
+input, button {
+    transition: transform 0.3s ease;
+}
+input:hover, button:hover {
+    transform: scale(1.1);
+    
+}

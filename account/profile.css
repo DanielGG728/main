@@ -1,0 +1,96 @@
+body {
+    color: whitesmoke;
+    background-color: rgb(35, 36, 41);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+body button {
+    color: #444;
+    background-color: whitesmoke;
+    border: none;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 4px 10px 4px 10px;
+    margin: 5px 25px 5px 25px;
+    transition: transform 0.3s ease, font-size 0.3s ease, font-family 0.3s ease; /* Adicionando font-size à transição */
+    font-size: 16px; /* Tamanho padrão da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100px;
+    max-width:50%;
+}
+body button:hover {
+    /* style the submit button */
+    transform: scale(1.2) rotate(0.01turn);
+    font-size: 18px;
+}
+div button {
+    /* style the submit button */
+    background-color: #444;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px 4px 10px;
+    margin: 5px 25px 5px 25px;
+    transition: transform 0.3s ease, font-size 0.3s ease, font-family 0.3s ease; /* Adicionando font-size à transição */
+    font-size: 16px; /* Tamanho padrão da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div button:hover {
+    /* style the submit button */
+    transform: scale(1.2) rotate(0.01turn);
+    font-size: 18px;
+    
+}
+
+header {
+    text-align: center;
+}
+
+div#sidebar {
+    display: inline-block;
+    width: 20%;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 200px;
+}
+#logout {
+    background-color: #ff6666;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título para separá-lo da div */
+}
+
+div {
+    width: 50%;
+    margin: 0 auto 50px; /* Centraliza horizontalmente a div e adiciona margem abaixo */
+    color: #444;
+    display: block;
+    background-color: #f7f7ff;
+    padding: 25px;
+    border-radius: 10px;
+}
+a {
+    color: #525252;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+a:hover {
+    color: #b8b8b8;
+    font-size: 18px;
+}
+input, button {
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+    border: solid #000000 2px;
+}
+input:hover, button:hover {
+    transform: scale(1.1) rotate(0.005turn);
+}

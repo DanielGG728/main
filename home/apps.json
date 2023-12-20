@@ -1,0 +1,32 @@
+{
+    "Chat simples":{
+        "desc":"É um chat simples, sem sistema de contas e respostas, mas eu tentei, é um projeto simples para iniciantes na area da programação",
+        "visitas":0,
+        "likes":0,
+        "favoritos":0,
+        "link":"./chat/index.php",
+        "comentarios":{
+            "Sistema":"Comentario teste"
+        }
+    },
+    "Teste":{
+        "desc":"teste",
+        "visitas":0,
+        "likes":0,
+        "favoritos":0,
+        "link":"./",
+        "comentarios":{
+            "Sistema":"Comentario teste"
+        }
+    },
+    "Chat":{
+        "desc":"Chat com sistema de contas integrado, likes e mensagens de resposta",
+        "visitas":0,
+        "likes":0,
+        "favoritos":0,
+        "link":"./chat/advanced.php",
+        "comentarios":{
+            "Sistema":"Comentario teste"
+        }
+    }
+}

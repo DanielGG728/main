@@ -1,0 +1,52 @@
+body {
+    color: whitesmoke;
+    background-color: rgb(35, 36, 41);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+div {
+    color: #444;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    min-height: auto;
+    margin: 10px;
+}
+div button.button {
+    /* style the submit button */
+    background-color: #444;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 10px 4px 10px;
+    margin: 5px 25px 5px 25px;
+    transition: transform 0.3s ease, font-size 0.3s ease, font-family 0.3s ease; /* Adicionando font-size à transição */
+    font-size: 16px; /* Tamanho padrão da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div button.button:hover {
+    /* style the submit button */
+    transform: scale(1.2) rotate(0.01turn);
+    font-size: 18px;
+    
+}
+
+header {
+    text-align: center;
+}
+
+div#sidebar {
+    display: inline-block;
+    width: 20%;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 200px;
+}
